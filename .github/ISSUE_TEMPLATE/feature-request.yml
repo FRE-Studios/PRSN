@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest a feature for the PRSN app or SDK.
+title: "[feature] "
+labels: ["feature"]
+body:
+  - type: dropdown
+    id: target
+    attributes:
+      label: Which product?
+      options:
+        - iOS app
+        - Web SDK
+        - iOS SDK
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Optional. Sketch of the shape you have in mind.
+    validations:
+      required: false

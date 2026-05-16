@@ -1,0 +1,48 @@
+name: iOS app bug
+description: Report a bug in the PRSN iOS app.
+title: "[app] "
+labels: ["bug", "ios-app"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For verification bypasses or security issues, do **not** file here — email <security@fre-studios.com>. See SECURITY.md.
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: e.g. iPhone 15 Pro
+    validations:
+      required: true
+  - type: input
+    id: ios-version
+    attributes:
+      label: iOS version
+      placeholder: e.g. 18.3
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: PRSN app version
+      description: Settings → About, or the TestFlight build number.
+      placeholder: e.g. 1.0.3 (build 42)
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: false

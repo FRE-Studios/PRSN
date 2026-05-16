@@ -1,0 +1,51 @@
+name: SDK bug
+description: Report a bug in the PRSN Human Verification SDK. Partners only.
+title: "[sdk] "
+labels: ["bug", "sdk"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        SDK access requires a signed partner agreement. No agreement yet? Email <partnerships@fre-studios.com>.
+
+        For verification bypasses or security issues, do **not** file here — email <security@fre-studios.com>. See SECURITY.md.
+  - type: dropdown
+    id: sdk
+    attributes:
+      label: Which SDK?
+      options:
+        - Web SDK
+        - iOS SDK
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SDK version
+      placeholder: e.g. web-sdk-v0.1.0
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform / runtime
+      description: Browser + version, or iOS version + Swift version.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
