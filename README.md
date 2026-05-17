@@ -20,6 +20,10 @@ This repo is the public issue tracker, changelog, and release log for both. Sour
 
 Site shows a QR / deeplink / SDK prompt → user does a brief physical gesture on their phone → your backend gets a signed, single-use token. ([How it works](https://prsn.you/verification/how-it-works))
 
+## Try v0.1.0 & shape what ships
+
+Verification is at **v0.1.0**, under active development. The current flow is testable today inside the [PRSN iOS app](https://testflight.apple.com/join/b58XXvKn) — the full proposed system is at <https://prsn.you/verification>. We want feedback now, while the design is still movable: [open an issue](../../issues/new/choose) with what worked, what didn't, or what you'd need to integrate.
+
 ## Integration shape (preview)
 
 Final API ships with v0.1.
@@ -42,6 +46,7 @@ PRSNVerify.start(siteKey: "...") { result in /* result.token */ }
 | Component | Status |
 | --- | --- |
 | iOS App | TestFlight beta |
+| Human Verification | v0.1.0 — testable in iOS app, feedback open |
 | Web Widget · iOS SDK · `/siteverify` | In development |
 
 ## License & Security
