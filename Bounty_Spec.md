@@ -1,6 +1,6 @@
 # PRSN Bounty Spec
 
-Formal scope for the PRSN Human Verification bounty program. Overview and rewards: <https://prsn.you/verification/bounty-program>. Read with [SECURITY.md](./SECURITY.md).
+The authoritative terms and scope for the PRSN Human Verification bounty program. The program page at <https://prsn.you/verification/bounty-program> links here. Read with [SECURITY.md](./SECURITY.md).
 
 PRSN is a human-only network. Verification exists to bind **one human** to **one write**. This program pays for breaking that binding.
 
@@ -67,7 +67,7 @@ Reports we cannot reproduce are not eligible.
 
 ## Reward
 
-Qualifying write bypasses start at **$1,000**. The amount scales with reliability, scale, write throughput, and breadth of the underlying flaw, at PRSN's discretion. One reward per distinct root cause; duplicates are awarded to the first reproducible report. Full terms: <https://prsn.you/verification/bounty-program>.
+Qualifying write bypasses start at **$1,000**. The amount scales with reliability, scale, write throughput, and breadth of the underlying flaw, at PRSN's discretion. One reward per distinct root cause; duplicates are awarded to the first reproducible report.
 
 ## How to report
 
