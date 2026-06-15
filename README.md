@@ -14,7 +14,7 @@ This repo is the public issue tracker, changelog, and release log for both. Sour
 | --- | --- |
 | Reporting an iOS app bug or stuck verification | [Open an issue](../../issues/new/choose) |
 | Asking about integrating the SDK | <partnerships@fre-studios.com> |
-| Reporting a verification bypass | <security@fre-studios.com> · [bounty](https://prsn.you/verification/bounty-program) |
+| Reporting a verification bypass | <security@fre-studios.com> · [bounty](https://prsn.you/verification/bounty-program) · [scope](./Bounty_Spec.md) |
 
 ## Human Verification, in one line
 
